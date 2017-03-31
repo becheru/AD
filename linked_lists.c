@@ -55,7 +55,7 @@ void push_element(struct g_node *head ,int new_element_value, int position){
 }
 
 ///to be implemented
-void pop_element(struct g_node *head ,int new_element_value, int position){
+int pop_element(struct g_node *head ,int new_element_value, int position){
        struct g_node *poped_element;
        //remove new_element_value from certain position in the list and
        //return its value
