@@ -10,3 +10,6 @@ target: dependencies
 Use << make >> command to run a makefile.
 
 If you have multiple makefiles run the command << make -f make_file_name >>.
+
+On Windows with Code::Blocks you have to use the following command
+<< mingw32-make -f make_file_name >> .
