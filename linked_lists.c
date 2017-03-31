@@ -9,9 +9,9 @@ struct g_node{
 void push_element_begining(struct g_node *head ,int new_element_value){
        struct g_node *new_element = malloc(sizeof(struct g_node));
 
-       new_element->info = new_element_value;
        new_element->next = head->next;
        head->next = new_element;
+       new_element->info = new_element_value;
 }
 
 void push_element_end(struct g_node *head ,int new_element_value){
@@ -24,9 +24,9 @@ void push_element_end(struct g_node *head ,int new_element_value){
        }
        last_element = iterator;
 
+       new_element->next = last_element->next;
        last_element->next = new_element;
        new_element->info = new_element_value;
-       new_element->next = NULL;
 }
 
 void print_list(struct g_node *head){
@@ -41,6 +41,8 @@ void print_list(struct g_node *head){
 
 ///to be implemented
 int find_postion_of_value(struct g_node *head ,int searched_element_value){
+       // finds the position of an element in a list
+       // return -1 in case the searched_element_value is not in list
        int position = -1;
 
        return position;
@@ -48,22 +50,27 @@ int find_postion_of_value(struct g_node *head ,int searched_element_value){
 
 ///to be implemented
 void push_element(struct g_node *head ,int new_element_value, int position){
+       //push new_element_value at a certain position in the list
 
 }
 
 ///to be implemented
 void pop_element(struct g_node *head ,int new_element_value, int position){
-
+       struct g_node *poped_element;
+       //remove new_element_value from certain position in the list and
+       //return its value
 }
 
 ///to be implemented
 int pop_element_begining(struct g_node *head){
+       //remove new_element_value from the begining and return its value
        struct g_node *poped_element;
 
 }
 
 ///to be implemented
 int pop_element_end(struct g_node *head){
+       //remove new_element_value from the end and return its value
        struct g_node *poped_element;
 
 }
