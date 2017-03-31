@@ -1,0 +1,12 @@
+
+If you want to compile all the files from the command line without makefiles, use
+the following command << gcc main.c hello.c factorial.c -o hello >>.
+
+Makefiles have the following syntax:
+
+target: dependencies
+[tab] system command
+
+Use << make >> command to run a makefile.
+
+If you have multiple makefiles run the command << make -f make_file_name >>.
