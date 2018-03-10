@@ -2,14 +2,14 @@
 #define G_MAX_VECTOR_LENGTH 1000
 
 int g_vector_sorted[2*G_MAX_VECTOR_LENGTH];
-int g_vector_sorted_length=0;
+int g_vector_sorted_length = 0;
 int g_vector_1[G_MAX_VECTOR_LENGTH];
-int g_vector_1_length=0;
+int g_vector_1_length = 0;
 int g_vector_2[G_MAX_VECTOR_LENGTH];
-int g_vector_2_length=0;
+int g_vector_2_length= 0;
 
 int read_value(){
-        int aux=0;
+        int aux = 0;
 
         printf("\n Give value= ");
         scanf("%d",&aux);
@@ -18,19 +18,19 @@ int read_value(){
 }
 
 void read_vector(int vector[], int vector_length){
-        int iterator=0;
+        int iterator = 0;
 
-        for (iterator=0;iterator < vector_length;iterator++){
+        for (iterator = 0;iterator < vector_length; iterator++){
                 printf("\n vector[%d]=",iterator);
                 scanf("%d",&vector[iterator]);
         }
 }
 
 void write_vector(int vector[], int vector_length){
-        int iterator=0;
+        int iterator = 0;
 
         printf("\n Vector: ");
-        for (iterator=0;iterator < vector_length;iterator++){
+        for (iterator = 0; iterator < vector_length; iterator++){
                 printf("%d ",vector[iterator]);
         }
 }
