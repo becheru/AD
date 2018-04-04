@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1522581725 source:/Users/becheru/Desktop/DoublyLinkedLists/main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+

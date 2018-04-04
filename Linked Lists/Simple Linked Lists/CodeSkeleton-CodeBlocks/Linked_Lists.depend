@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1521720878 source:/Users/becheru/Desktop/Linked_Lists/main.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+
