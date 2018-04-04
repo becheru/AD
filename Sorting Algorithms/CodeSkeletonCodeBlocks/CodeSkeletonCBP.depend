@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1521021142 source:/Users/becheru/Desktop/CodeSkeletonCBP/basic.c
+	"basic.h"
+
+1521021142 /Users/becheru/Desktop/CodeSkeletonCBP/basic.h
+
+1521103514 source:/Users/becheru/Desktop/CodeSkeletonCBP/insertion_sort.c
+	"basic.h"
+
+1521103520 source:/Users/becheru/Desktop/CodeSkeletonCBP/main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectors.h"
+	"sort.h"
+	"basic.h"
+
+1521094846 /Users/becheru/Desktop/CodeSkeletonCBP/vectors.h
+
+1521096378 /Users/becheru/Desktop/CodeSkeletonCBP/sort.h
+
+1521103464 source:/Users/becheru/Desktop/CodeSkeletonCBP/merge_sort.c
+	<stdlib.h>
+	"vectors.h"
+
+1521103494 source:/Users/becheru/Desktop/CodeSkeletonCBP/quick_sort.c
+	"vectors.h"
+	"basic.h"
+
+1521103500 source:/Users/becheru/Desktop/CodeSkeletonCBP/selection_sort.c
+	"sort.h"
+	"basic.h"
+	"vectors.h"
+
+1521109155 source:/Users/becheru/Desktop/CodeSkeletonCBP/vectors.c
+	<stdio.h>
+	"vectors.h"
+	<stdlib.h>
+
