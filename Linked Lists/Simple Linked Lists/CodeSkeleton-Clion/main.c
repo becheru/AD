@@ -128,6 +128,11 @@ int main(){
     push_element_end(head, 3);
     print_list(head);
 
+    printf("\n===== Pushing at specific position ======");
+    print_list(head);
+    push_element_at_position(head,3,10);
+    print_list(head);
+
     printf("\n===== No elements in list ======");
     aux = return_no_elements(head);
     printf("\nThe list has %d elments ", aux);
@@ -154,11 +159,6 @@ int main(){
     print_list(head);
     aux = pop_element_at_position(head,0);
     printf("\n The poped element is %d",aux);
-    print_list(head);
-
-    printf("\n===== Pushing at specific position ======");
-    print_list(head);
-    push_element_at_position(head,3,10);
     print_list(head);
 
     free(head);
