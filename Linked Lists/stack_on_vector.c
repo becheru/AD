@@ -15,7 +15,7 @@ void list_vector(int *vector_start,int vector_length){
 
        for (iterator =0 ; iterator < vector_length-1; iterator++) {
 
-               printf("%d ",*(vector_start + iterator)); // vector[iterator]
+               printf("%d ",*(vector_start + iterator)); // vector[iterator] lasldasdsads
 
        }
 
